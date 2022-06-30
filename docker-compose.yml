@@ -5,7 +5,7 @@ services:
     image: postgres
     container_name: postgres_container
     ports:
-      - "5432:5432" # host:container
+      - "7777:5432" # host:container
     volumes:
       - ./pgdata:/var/lib/postgresql/pgdata
     environment:
