@@ -1,3 +1,8 @@
+#opening shell from cli:=>  docker exec -it music_service bash
+
+#for building and running docker container:=> docker-compose up
+
+
 #remove all images
 sudo docker system prune
 
